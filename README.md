@@ -15,3 +15,5 @@ First make sure you have an npm account and you're logged in with npm. To login 
 1. In the `package` dir, run npm publish. If it gives you 403 Forbidden error, make sure you have verified your email after creating an npm account.
 
 After running npm publish you should be able to see your package on npm.
+
+If you can't use a package name to publish coz it's already taken, you can used scoped package names, with your username, for ex: @ridzchandra9/test-ridz
