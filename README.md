@@ -16,4 +16,4 @@ First make sure you have an npm account and you're logged in with npm. To login 
 
 After running npm publish you should be able to see your package on npm.
 
-If you can't use a package name to publish coz it's already taken, you can used scoped package names, with your username, for ex: @ridzchandra9/test-ridz
+If you can't use a package name to publish coz it's already taken, you can used scoped package names, with your username, for ex: @ridzchandra9/test-ridz in your package.json of your package. By default scoped packages are assumed to be private unless you set the flag --access=public if you want to publish this package as a public package when you run `npm publish`
